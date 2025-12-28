@@ -13,10 +13,10 @@
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-    margin-top: 15px;
 }
 
 .header {
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
@@ -27,13 +27,13 @@
 .header-links{
     display: flex;
     justify-content: flex-end;
-    margin-top: 15px;
 }
 
 .header-link {
     font-size: 18px;
     color: #E5E7EB;
     margin-right: 25px;
+    text-decoration: none;
 }
 
 .main-hero {
@@ -41,9 +41,9 @@
     gap: 50px;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
     margin-left: 300px;
     margin-right: 300px;
+    padding-bottom: 150px;
 }
 
 .hero-text{
@@ -78,7 +78,35 @@ button{
 }
 
 img {
-    width: 900px;
-    height: 300px;
+    width: 500px;
+    height: 230px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.carousel {
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.carousel-element {
+    text-align: center;
+    color: #868686;
+    width: 200px;
+}
+
+.carousel-img {
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px
 }
 
